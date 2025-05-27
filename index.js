@@ -15,48 +15,38 @@ class TainanHotelMonitor {
         this.hotelSources = [
             {
                 name: '台南晶英酒店',
-                url: 'https://tainan.silksplace.com/',
-                selector: '.promotion, .offer, .news-item, .package'
+                url: 'https://tainan.silksplace.com/tw/promotions?category=1',
+                selector: '.promotion-card'
             },
             {
                 name: '煙波大飯店台南館',
-                url: 'https://tainan.lakeshore.com.tw/',
-                selector: '.promotion, .offer, .special, .package-item'
-            },
-            {
-                name: '台糖長榮酒店',
-                url: 'https://tainan.evergreen-hotels.com/',
-                selector: '.news-item, .promotion, .package'
+                url: 'https://tainan.lakeshore.com.tw/latest-news/room-offers/',
+                selector: '.promotion'
             },
             {
                 name: '夏都城旅安平館',
-                url: 'https://www.chateau.com.tw/anping/',
-                selector: '.news, .promotion, .offer'
+                url: 'https://www.tnchateau.com.tw/news/lodging/',
+                selector: '.newsList, .topNewsList'
             },
             {
                 name: '和逸飯店台南西門館',
-                url: 'https://www.cozzihotels.com/zh-TW/Cozzi-Ximen',
-                selector: '.promotion, .offer, .news, .package'
+                url: 'https://hotelcozzi.com/%e5%8f%b0%e5%8d%97%e8%a5%bf%e9%96%80%e9%a4%a8/%e6%9c%80%e6%96%b0%e5%84%aa%e6%83%a0-xt/%e4%bd%8f%e5%ae%bf%e5%84%aa%e6%83%a0-xt/',
+                selector: '.isotope-item'
             },
             {
                 name: '禧榕軒大飯店',
-                url: 'https://www.hrhotel.com.tw/',
-                selector: '.news, .promotion, .offer, .package'
-            },
-            {
-                name: '康橋商旅',
-                url: 'https://www.kindness-hotel.com.tw/',
-                selector: '.news, .promotion, .offer'
+                url: 'https://www.grandbanyanhotel.com/news/room-specials/',
+                selector: '.newsItem'
             },
             {
                 name: '大員皇冠假日酒店',
-                url: 'https://www.ihg.com/crowneplaza/hotels/us/en/tainan/tnncr/hoteldetail',
-                selector: '.promotion, .offer, .package, .news'
+                url: 'https://www.cptainan.com/news/5/',
+                selector: '.isotope-item'
             },
             {
                 name: '福爾摩沙遊艇酒店',
-                url: 'https://www.formosayacht.com.tw/',
-                selector: '.news, .promotion, .offer'
+                url: 'https://www.formosayacht.com.tw/news/room/',
+                selector: '.newsItem'
             }
         ];
         
